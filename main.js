@@ -19,4 +19,4 @@ const main = async (dataList) => {
   logger.info("all is done!");
 };
 
-main(urlList);
+main([urlList[0]]);
